@@ -11,19 +11,43 @@
             <a href="Index.html">Google Search</a>
         </p>
         
-        <h2 style="color:red">Advanced Search</h2>
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
+            alt="Google" width="100" height="34">
+
+        <h2 id="smallred">Advanced Search</h2>
+        
+        <hr>
 
         <p>Find pages with...</p>
 
-        <form action="https://google.com/search">
-            all these words:          
-            <input type="text" size="40" name="as_q"><br><br>
-            this exact word or phrase:
-            <input type="text" size="40" name="as_epq"><br><br>
-            any of these words:       
-            <input type="text" size="40" name="as_oq"><br><br>
-            none of these words:      
-            <input type="text" size="40" name="as_eq"><br><br>
+        <form action="https://google.com/search">       
+            <div class="firstcol">
+                <label for="as_q">all these words:</label>
+            </div>
+            <div class="secondcol">
+                <input type="text" size="60" name="as_q"><br><br>
+            </div>
+
+            <div class="firstcol"> 
+                <label for="as_epq">this exact word or phrase:</label>
+            </div>
+            <div class="secondcol">
+                <input type="text" size="60" name="as_epq"><br><br>
+            </div>
+
+            <div class="firstcol"> 
+                <label for="as_oq">any of these words:</label>
+            </div>
+            <div class="secondcol">     
+                <input type="text" size="60" name="as_oq"><br><br>
+            </div>
+
+            <div class="firstcol"> 
+                <label for="as_eq">none of these words</label>
+            </div>
+            <div class="secondcol">
+                <input type="text" size="60" name="as_eq"><br><br>
+            </div>
             <input id="bluebutton" type="submit" class="btn btn-default" value="Advanced Search">
         </form>
     </body>
