@@ -6,11 +6,16 @@
     transform: translateY(-50%);
 }
 
-form {
+.centerform {
     padding: 300px 0;
     text-align: center;
 }
 
 #input {
     border-radius: 25px;
+}
+
+#bluebutton {
+background-color: blue; 
+color: white;
 }
